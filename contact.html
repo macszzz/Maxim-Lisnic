@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Explorează Lumea</title>
+  <link rel="stylesheet" href="servicii.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Explorează Lumea</h1>
+      <nav>
+        <a href="/" class="text-gray-600 hover:text-blue-500 px-3">Acasă</a>
+        <a href="servicii.html" class="text-gray-600 hover:text-blue-500 px-3">Servicii</a>
+        <a href="/contact" class="text-blue-600 font-semibold px-3">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact -->
+  <section class="max-w-5xl mx-auto py-12 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Contactează-ne</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      
+      <!-- Info Contact -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-blue-600">Date de contact</h3>
+        <p class="mb-3">Mircesti 22/4, Chisinau</p>
+        <p class="mb-3">📞 +373 123 45 678</p>
+        <p class="text-sm text-gray-500 mt-4">Program: Luni - Vineri, 9:00 - 17:00</p>
+      </div>
+
+      <!-- Formular -->
+      <div>
+        <form class="bg-white shadow rounded-2xl p-6 space-y-4">
+          <div>
+            <label class="block text-sm font-medium mb-1">Nume</label>
+            <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Email</label>
+            <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Mesaj</label>
+            <textarea rows="4" class="w-full border border-gray-300 rounded px-4 py-2" required></textarea>
+          </div>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+            Trimite mesajul
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-12 p-6 text-center text-gray-500 text-sm">
+    © 2025 MaxTours. Toate drepturile rezervate.
+  </footer>
+
+</body>
+</html>

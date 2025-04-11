@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tururi în Pădurile Lumii</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: #f0f8f0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    main {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .card button:hover {
+      background-color: #1b5e20;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tururi în cele mai comode locuri</h1>
+  <p>Explorează cele mai fascinante păduri de pe glob și trăiește o aventură verde de neuitat!</p>
+</header>
+
+<main>
+  <div class="cards">
+
+    <div class="card">
+      <img src="photo/Beji-Ubud-Resort-Exterior.jpg" alt="Amazon">
+      <div class="card-content">
+        <h3>Brazilia – Pădurea Amazoniană</h3>
+        <p>Explorează cea mai mare pădure tropicală din lume, cu biodiversitate spectaculoasă, triburi indigene și aventuri pe fluviul Amazon.</p>
+        <button>Rezervă acum</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photo/getimage.jpg" alt="Bambus Japonia">
+      <div class="card-content">
+        <h3>Japonia – Pădurile de Bambus</h3>
+        <p>Vizitează pădurea Arashiyama și bucură-te de liniștea bambușilor giganți aproape de Muntele Fuji. O experiență zen autentică.</p>
+        <button>Rezervă acum</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photo/Ebony-Lodge-1-1024x539.jpg" alt="Congo">
+      <div class="card-content">
+        <h3>Africa – Pădurile din Congo</h3>
+        <p>Trăiește o aventură în jungla africană și descoperă gorilele în habitatul lor natural și peisaje exotice uimitoare.</p>
+        <button>Rezervă acum</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photo/depositphotos_596937910-stock-photo-line-small-bamboo-huts-green.jpg" alt="Panda Sichuan">
+      <div class="card-content">
+        <h3>China – Pădurile din Sichuan</h3>
+        <p>Explorează munți împăduriți unde urșii panda trăiesc liberi. Peisajele magice din Sichuan te vor fermeca.</p>
+        <button>Rezervă acum</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="photo/depositphotos_424237318-stock-photo-verkhniye-mandrogi-russia-oct-2020.jpg" alt="Munții Balcani">
+      <div class="card-content">
+        <h3>Serbia – Munții Balcani</h3>
+        <p>Relaxează-te în pădurile muntoase ale Serbiei, respirând aer curat și descoperind tradiții autentice în peisaje spectaculoase.</p>
+        <button>Rezervă acum</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  © 2025 MaxTours. Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>
